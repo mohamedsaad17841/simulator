@@ -518,8 +518,7 @@ public class gui extends javax.swing.JFrame {
     private void toExcute(String str)
     {
       //  System.out.println(str.substring(26, 32));
-        String opCode = str.substring(0, 6);        
-        System.out.println("hey here = " + opCode);
+        String opCode = str.substring(0, 6);    
         if(opCode.equals("000000"))        //R-Type instructions
         {
             String instruction = str.substring(26, 32);
