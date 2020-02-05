@@ -160,8 +160,7 @@ public class Assembler {
 
             }
         }
-        return getRegister(regs.get(1))+getRegister(regs.get(0))+getInSize(getBinary(num),16)
-                ;
+        return getRegister(regs.get(1))+getRegister(regs.get(0))+getInSize(getBinary(num),16);                
     }
 
     static String parseRtype(String input){
